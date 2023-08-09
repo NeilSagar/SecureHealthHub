@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  @font-face {
+    font-family: profile;
+    src: url(1.ttf);
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  .profileContainer {
+    height:100vh;
+    width: 80%;
+  }
+  
+  .profile_top {
+    background-color: #f4eff5;
+    height: 150px;
+    position: relative;
+  }
+  
+  #profile_image {
+    width: 19%;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    z-index: 1;
+    opacity: 0, 5;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 9px 9px 39px -19px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 9px 9px 39px -19px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 9px 9px 39px -19px rgba(0, 0, 0, 0.75);
+  }
+  
+  .inline {
+    display: inline-block;
+  }
+  
+  .name {
+    margin-right: 30%;
+    font-size: 20px;
+    /* color: lightgray; */
+    margin-bottom: 35px;
+  }
+  
+  #profileText {
+    margin-top: 3px;
+    margin-left: 28%;
+    text-align: left;
+    font-family: profile;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+  
+  .profileContainer h4 {
+    margin-left: 28%;
+    text-align: left;
+    margin-top: 0px;
+    color: lightgrey;
+    margin-bottom: 60px;
+  }
+  
+  h1 h2 h3 h4 h5 h6 {
+    font-family: profile;
+    font-weight: normal;
+    margin: 0px;
+  }
+  
+  input {
+    width: 80%;
+    height: 25px;
+    border-radius: 3px;
+    border-color: lightgrey
+  }
+  
+  .details {
+    text-align: left;
+    font-family: profile;
+  }
+  
+  .container {
+    margin: 0px;
+    width: 50%;
+    height: 35px;
+    border: 1px solid grey;
+    border-radius: 2%
+  }
+  .profileContainer table{
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .profileContainer table td{
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .profileContainer input{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    width: 100%;
+  }
+  .profileContainer tr td:first-child{
+    text-align: left;
+  
+  }
+  .profileContainer input:focus{
+   outline: none;
+    /* border-radius: 5px;
+    padding: 15px;
+    width: 80%; */
+  }
